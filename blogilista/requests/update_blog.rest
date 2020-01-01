@@ -1,0 +1,9 @@
+PUT http://localhost:3003/api/blogs/5e0922edd1ab2e54389add56
+Content-Type: application/json
+
+{ 
+    "title": "Kirja",
+    "author": "Kirjailija",
+    "url": "kirjablogi.com",
+    "likes": 0
+}

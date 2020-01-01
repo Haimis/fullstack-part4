@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOiI1ZTBiZTRjNzNmY2MwZDdmMTUwYTMwOWEiLCJpYXQiOjE1Nzc4Mzg5MTh9.MhR2NTjQxsMf8K57n7tls7DdAwU1NnMFe3EFfyvrpog
+
+{ 
+    "title": "osan vika testi",
+    "author": "Midlewarettaja",
+    "url": "google.com",
+    "likes": 0
+}
